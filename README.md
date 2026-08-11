@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Darsh-KShah/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Darsh-KShah/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 ## String
 |  |
 | ------- |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Darsh-KShah/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Darsh-KShah/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 ## Binary Search
 |  |
 | ------- |
@@ -38,4 +40,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Darsh-KShah/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+## Sorting
+|  |
+| ------- |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Darsh-KShah/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 <!---LeetCode Topics End-->
