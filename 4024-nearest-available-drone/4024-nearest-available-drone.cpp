@@ -9,9 +9,7 @@ public:
             int md = abs(target[0] - drones[i][0]) + abs(target[1] - drones[i][1]);
 
             if(md <= drones[i][2]) {
-                if(mp.count(md)) {
-
-                } else mp[md] = i;
+                if(!mp.count(md)) mp[md] = i;
             }
         }
 
