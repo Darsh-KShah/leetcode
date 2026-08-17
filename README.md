@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Darsh-KShah/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/Darsh-KShah/leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/Darsh-KShah/leetcode/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/Darsh-KShah/leetcode/tree/master/0014-longest-common-prefix) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Darsh-KShah/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Sliding Window
 |  |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Darsh-KShah/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/Darsh-KShah/leetcode/tree/master/0014-longest-common-prefix) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Darsh-KShah/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Darsh-KShah/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Darsh-KShah/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
@@ -60,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Darsh-KShah/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Darsh-KShah/leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
