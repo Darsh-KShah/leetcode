@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Darsh-KShah/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/Darsh-KShah/leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Darsh-KShah/leetcode/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/Darsh-KShah/leetcode/tree/master/0018-4sum) |
 | [1386-cinema-seat-allocation](https://github.com/Darsh-KShah/leetcode/tree/master/1386-cinema-seat-allocation) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Darsh-KShah/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Darsh-KShah/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Darsh-KShah/leetcode/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/Darsh-KShah/leetcode/tree/master/0018-4sum) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Darsh-KShah/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 ## Bit Manipulation
 |  |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Darsh-KShah/leetcode/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/Darsh-KShah/leetcode/tree/master/0018-4sum) |
 ## Greedy
 |  |
 | ------- |
