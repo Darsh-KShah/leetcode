@@ -5,12 +5,10 @@ public:
 
         for(int i = 0; i < n / 2; i++) {
             if(num[i] == '?') lc++;
-            else lhs += (num[i] - '0');
-        }
+            else lhs += num[i] - '0';
 
-        for(int i = n / 2; i < n; i++) {
-            if(num[i] == '?') rc++;
-            else rhs += (num[i] - '0');
+            if(num[n - 1 - i] == '?') rc++;
+            else rhs += num[n - 1 - i] - '0';
         }
 
         if(lc < rc) {
@@ -21,29 +19,30 @@ public:
             rc = 0;
         }
 
-        if(lc == 0 and rc == 0) return !(lhs == rhs);
+        if(lc == 0 and rc == 0) return lhs != rhs;
 
         if(lhs > rhs) {
             lhs -= rhs;
-            rhs = 0;
+            // rhs = 0;
         } else {
             rhs -= lhs;
             lhs = 0;
         }
 
-        cout << lhs << " " << rhs << " " << lc << " " << rc;
-
         if(lhs){
             if(lc) return true;
-            else {
-                if(rc & 1) return true;
-                else return !(9 * (rc / 2) == lhs);
-            }
+            
+            if(rc & 1) return true;
+            
+            return lhs != 9 * (rc / 2);
         } else if(rhs) {
             if(lc) {
                 if(lc & 1) return true;
-                else return !(9 * (lc / 2) == rhs);
-            } else return true;
+                
+                return rhs != 9 * (lc / 2);
+            } 
+            
+            return true;
         }
 
         return true;
