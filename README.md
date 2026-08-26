@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Darsh-KShah/leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Darsh-KShah/leetcode/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Darsh-KShah/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/Darsh-KShah/leetcode/tree/master/0020-valid-parentheses) |
 | [1927-sum-game](https://github.com/Darsh-KShah/leetcode/tree/master/1927-sum-game) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Darsh-KShah/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [4026-maximum-gap-between-stations](https://github.com/Darsh-KShah/leetcode/tree/master/4026-maximum-gap-between-stations) |
@@ -110,4 +111,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1927-sum-game](https://github.com/Darsh-KShah/leetcode/tree/master/1927-sum-game) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Darsh-KShah/leetcode/tree/master/0020-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Darsh-KShah/leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
