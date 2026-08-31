@@ -13,30 +13,28 @@ public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
         if(head->next->next == NULL) return {-1, -1};
 
-        int start = 0, end = 0, mini = 1e6, idx = 1;
+        int start = 0, prev = -1, mini = 1e6, idx = 1;
 
         ListNode* temp = head->next;
         ListNode* prv = head;
-        ListNode* nxt = temp->next;
 
         while(temp->next != NULL) {
-            if(prv->val < temp->val && temp->val > nxt->val || prv->val > temp->val && temp->val < nxt->val) {
-                if(start) mini = min(mini, idx - end);
+            if(prv->val < temp->val && temp->val > temp->next->val || prv->val > temp->val && temp->val < temp->next->val) {
+                if(start) mini = min(mini, idx - prev);
                 else start = idx;
 
-                end = idx;
+                prev = idx;
             }
 
             idx++;
 
             prv = temp;
-            temp = nxt;
-            nxt = nxt->next;
+            temp = temp->next;
         }
 
         if(mini == 1e6) return {-1, -1};
 
-        return {mini, end - start};
+        return {mini, prev - start};
 
     }
 };
