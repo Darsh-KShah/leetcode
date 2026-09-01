@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Darsh-KShah/leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Darsh-KShah/leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Darsh-KShah/leetcode/tree/master/0018-4sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Darsh-KShah/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [1386-cinema-seat-allocation](https://github.com/Darsh-KShah/leetcode/tree/master/1386-cinema-seat-allocation) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Darsh-KShah/leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Darsh-KShah/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Darsh-KShah/leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Darsh-KShah/leetcode/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Darsh-KShah/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Darsh-KShah/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [4026-maximum-gap-between-stations](https://github.com/Darsh-KShah/leetcode/tree/master/4026-maximum-gap-between-stations) |
 ## Greedy
 |  |
