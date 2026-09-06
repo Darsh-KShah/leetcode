@@ -3,19 +3,14 @@ public:
     int numDistinct(string s, string t) {
         int n = s.size(), m = t.size();
 
-        vector<vector<unsigned long long>> dp(n + 1, vector<unsigned long long> (m + 1));
+        vector<unsigned long long> dp(m + 1);
 
-        for(int i = 0; i <= n; i++)
-            dp[i][m] = 1;
+        dp[m] = 1;
 
-        for(int i = n - 1; i >= 0; i--) {
-            for(int j = m - 1; j >= 0; j--) {
-                dp[i][j] = dp[i + 1][j];
+        for(int i = n - 1; i >= 0; i--)
+            for(int j = 0; j < m; j++)
+                if(s[i] == t[j]) dp[j] += dp[j + 1];
 
-                if(s[i] == t[j]) dp[i][j] += dp[i + 1][j + 1];
-            }
-        }
-
-        return dp[0][0];
+        return dp[0];
     }
 };
