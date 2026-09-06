@@ -1,24 +1,21 @@
 class Solution {
 public:
-    int sol(vector<vector<int>> &dp, string &s, string &t, int x, int y, int n, int m) {
-        if(y == m) return 1;
-
-        if(x == n) return 0;
-
-        if(dp[x][y] != -1) return dp[x][y];
-
-        int res = sol(dp, s, t, x + 1, y, n, m);
-
-        if(s[x] == t[y]) res += sol(dp, s, t, x + 1, y + 1, n, m);
-
-        return dp[x][y] = res;
-    }
-
     int numDistinct(string s, string t) {
         int n = s.size(), m = t.size();
 
-        vector<vector<int>> dp(n + 1, vector<int> (m + 1, -1));
+        vector<vector<unsigned long long>> dp(n + 1, vector<unsigned long long> (m + 1));
 
-        return sol(dp, s, t, 0, 0, n, m);
+        for(int i = 0; i <= n; i++)
+            dp[i][m] = 1;
+
+        for(int i = n - 1; i >= 0; i--) {
+            for(int j = m - 1; j >= 0; j--) {
+                dp[i][j] = dp[i + 1][j];
+
+                if(s[i] == t[j]) dp[i][j] += dp[i + 1][j + 1];
+            }
+        }
+
+        return dp[0][0];
     }
 };
