@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/Darsh-KShah/leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Darsh-KShah/leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Darsh-KShah/leetcode/tree/master/0013-roman-to-integer) |
+| [0836-rectangle-overlap](https://github.com/Darsh-KShah/leetcode/tree/master/0836-rectangle-overlap) |
 | [1927-sum-game](https://github.com/Darsh-KShah/leetcode/tree/master/1927-sum-game) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Darsh-KShah/leetcode/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3870-count-commas-in-range](https://github.com/Darsh-KShah/leetcode/tree/master/3870-count-commas-in-range) |
@@ -189,4 +190,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/Darsh-KShah/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/Darsh-KShah/leetcode/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
