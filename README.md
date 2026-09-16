@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Darsh-KShah/leetcode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Darsh-KShah/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0045-jump-game-ii](https://github.com/Darsh-KShah/leetcode/tree/master/0045-jump-game-ii) |
+| [0057-insert-interval](https://github.com/Darsh-KShah/leetcode/tree/master/0057-insert-interval) |
 | [0135-candy](https://github.com/Darsh-KShah/leetcode/tree/master/0135-candy) |
 | [1386-cinema-seat-allocation](https://github.com/Darsh-KShah/leetcode/tree/master/1386-cinema-seat-allocation) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Darsh-KShah/leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
