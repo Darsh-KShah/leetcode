@@ -1,39 +1,30 @@
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& ivl, vector<int>& newI) {
-        int n = ivl.size();
+        int n = ivl.size(), i = 0;
 
         vector<vector<int>> res;
+        res.reserve(n + 1);
 
-        for(int i = 0; i < n; i++) {
-            if(ivl[i][1] < newI[0]) res.push_back(ivl[i]);
-            else if(newI[1] < ivl[i][0]) {
-                res.push_back(newI);
-
-                while(i < n) {
-                    res.push_back(ivl[i]);
-                    i++;
-                }
-            } else {
-                int l = min(ivl[i][0], newI[0]), r = max(ivl[i][1], newI[1]);
-
-                i++;
-
-                while(i < n && ivl[i][0] <= r) {
-                    r = max(r, ivl[i][1]);
-                    i++;
-                }
-
-                res.push_back({l, r});
-
-                while(i < n) {
-                    res.push_back(ivl[i]);                    
-                    i++;
-                }
-            }
+        while(i < n && ivl[i][1] < newI[0]) {
+            res.push_back(ivl[i]);
+            i++;
         }
 
-        if(res.empty() or res.back()[1] < newI[0]) res.push_back(newI);
+        while(i < n && ivl[i][0] <= newI[1]) {
+            newI[0] = min(newI[0], ivl[i][0]);
+            newI[1] = max(newI[1], ivl[i][1]);
+
+            i++;
+        }
+
+        res.push_back(newI);
+
+        while(i < n) {
+            res.push_back(ivl[i]);
+
+            i++;
+        }
 
         return res;
     }
