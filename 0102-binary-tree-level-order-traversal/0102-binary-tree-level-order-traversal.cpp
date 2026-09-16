@@ -18,12 +18,13 @@ public:
 
         queue<TreeNode*> q;
         q.push(root);
-        q.push(nullptr);
-
-        vector<int> temp = {};
 
         while(!q.empty()) {
-            if(q.front()) {
+            int n = q.size();
+
+            vector<int> temp;
+
+            for(int i = 0; i < n; i++) {
                 TreeNode* cur = q.front();
 
                 q.pop();
@@ -32,15 +33,9 @@ public:
 
                 if(cur->left) q.push(cur->left);
                 if(cur->right) q.push(cur->right);
-            } else {
-                q.pop();
+            } 
 
-                res.push_back(temp);
-
-                if(!q.empty()) q.push(nullptr);
-
-                temp = {};
-            }
+            res.push_back(temp);
         }
 
         return res;
