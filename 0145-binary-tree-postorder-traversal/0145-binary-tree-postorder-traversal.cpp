@@ -19,6 +19,11 @@ public:
         stack<TreeNode*> st1, st2;
         st1.push(root);
 
+        // desired - L R Root       <-
+        //                            \
+        //                            /
+        // st2 seq - Root R L -> pop -
+
         while(!st1.empty()) {
             TreeNode* cur = st1.top();
             st1.pop();
