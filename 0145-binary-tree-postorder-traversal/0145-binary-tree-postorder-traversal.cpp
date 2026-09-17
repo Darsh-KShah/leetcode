@@ -16,30 +16,34 @@ public:
 
         if(root == NULL) return res;
 
-        stack<TreeNode*> st1, st2;
-        st1.push(root);
+        stack<TreeNode*> st;
+        TreeNode* cur = root;
 
-        // desired - L R Root       <-
-        //                            \
-        //                            /
-        // st2 seq - Root R L -> pop -
+        while(cur != NULL or !st.empty()) {
+            while(cur != NULL) {
+                st.push(cur);
 
-        while(!st1.empty()) {
-            TreeNode* cur = st1.top();
-            st1.pop();
+                cur = cur->left;
+            }
 
-            st2.push(cur);
+            TreeNode* node = st.top()->right;
 
-            if(cur->left) st1.push(cur->left);
-            if(cur->right) st1.push(cur->right);
+            if(node != NULL) cur = node;
+            else {
+                node = st.top();
+                st.pop();
+
+                res.push_back(node->val);
+
+                while(!st.empty() && node == st.top()->right) {
+                    node = st.top();
+                    st.pop();
+
+                    res.push_back(node->val);
+                }
+            }
         }
-
-        while(!st2.empty()) {
-            res.push_back(st2.top()->val);
-
-            st2.pop();
-        }
-
+        
         return res;
     }
 };
