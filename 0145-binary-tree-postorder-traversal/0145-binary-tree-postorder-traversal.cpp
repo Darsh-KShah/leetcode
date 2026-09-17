@@ -20,7 +20,7 @@ public:
         TreeNode* cur = root;
 
         while(cur != NULL or !st.empty()) {
-            while(cur != NULL) {
+            while(cur != NULL) { // all L
                 st.push(cur);
 
                 cur = cur->left;
@@ -28,14 +28,14 @@ public:
 
             TreeNode* node = st.top()->right;
 
-            if(node != NULL) cur = node;
-            else {
+            if(node != NULL) cur = node; // go R to again go all L
+            else { // LR done go to root
                 node = st.top();
                 st.pop();
 
                 res.push_back(node->val);
 
-                while(!st.empty() && node == st.top()->right) {
+                while(!st.empty() && node == st.top()->right) { // go to roots
                     node = st.top();
                     st.pop();
 
