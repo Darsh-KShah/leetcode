@@ -23,10 +23,10 @@ public:
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
-        int res = 0;
+        int diameter = 0;
 
-        sol(root, res);
+        sol(root, diameter);
 
-        return res;
+        return diameter;
     }
 };
