@@ -14,12 +14,12 @@ public:
     int maxSum(TreeNode* node, int &res) {
         if(node == NULL) return 0;
 
-        int l = maxSum(node->left, res);
-        int r = maxSum(node->right, res);
+        int l = max(0, maxSum(node->left, res));
+        int r = max(0, maxSum(node->right, res));
 
-        res = max(res, max(0, l) + max(0, r) + node->val);
+        res = max(res, l + r + node->val);
 
-        return max({0, l, r}) + node->val;
+        return max(l, r) + node->val;
     }
 
     int maxPathSum(TreeNode* root) {
