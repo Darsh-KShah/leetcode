@@ -17,9 +17,7 @@ public:
         int l = sol(node->left);
         int r = sol(node->right);
 
-        if(l == -1 or r == -1) return -1;
-
-        if(abs(l - r) > 1) return -1;
+        if(abs(l - r) > 1 or l == - 1 or r == -1) return -1;
 
         return max(l, r) + 1;
     }
