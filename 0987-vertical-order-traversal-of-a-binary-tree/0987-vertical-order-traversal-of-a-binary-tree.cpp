@@ -23,24 +23,13 @@ public:
     }
 
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        vector<vector<int>> res;
-
-        int mini = 0;
+        vector<vector<int>> res;        
 
         unordered_map<int, vector<pair<int, int>>> mp;
 
+        int mini = 0;
+
         sol(mp, root, 0, 0, mini);
-
-        for(auto &i : mp) {
-            cout << i.first << ":";
-
-            for(auto &j : i.second) 
-                cout << j.first << " " << j.second << " ";
-
-            cout << endl;
-        }
-
-        cout << mini;
 
         while(true) {
             if(!mp.count(mini)) break;
