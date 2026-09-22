@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Darsh-KShah/leetcode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Darsh-KShah/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Darsh-KShah/leetcode/tree/master/0031-next-permutation) |
+| [0035-search-insert-position](https://github.com/Darsh-KShah/leetcode/tree/master/0035-search-insert-position) |
 | [0045-jump-game-ii](https://github.com/Darsh-KShah/leetcode/tree/master/0045-jump-game-ii) |
 | [0056-merge-intervals](https://github.com/Darsh-KShah/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Darsh-KShah/leetcode/tree/master/0057-insert-interval) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Darsh-KShah/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0035-search-insert-position](https://github.com/Darsh-KShah/leetcode/tree/master/0035-search-insert-position) |
 ## Divide and Conquer
 |  |
 | ------- |
