@@ -1,24 +1,5 @@
 class Solution {
 public:
-    bool isPath(vector<vector<vector<int>>> &dp, vector<vector<char>> &grid, int n, int m, int x, int y, int cnt) {
-        if(x == n - 1 && y == m - 1) return cnt == 1 && grid[x][y] == ')';
-
-        if(x == n || y == m) return false;
-
-        if(dp[x][y][cnt] != -1) return dp[x][y][cnt];
-
-        int bal = cnt;
-
-        grid[x][y] == ')' ? bal-- : bal++;
-
-        if(bal < 0) return dp[x][y][cnt] = false;
-
-        bool r = isPath(dp, grid, n, m, x + 1, y, bal);
-        bool d = isPath(dp, grid, n, m, x, y + 1, bal);
-
-        return dp[x][y][cnt] = r || d;
-    }
-
     bool hasValidPath(vector<vector<char>>& grid) {
         int n = grid.size(), m = grid[0].size();
 
@@ -26,8 +7,30 @@ public:
 
         if(grid[0][0] == ')' || grid[n - 1][m - 1] == '(') return false;
 
-        vector<vector<vector<int>>> dp(n + 1, vector<vector<int>> (m + 1, vector<int> (n + m, -1)));
+        vector<vector<vector<bool>>> dp(n, vector<vector<bool>> (m, vector<bool> (n + m, false)));
 
-        return isPath(dp, grid, n, m, 0, 0, 0);
+        dp[0][0][1] = true;
+
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < m; j++) {
+                for(int cnt = 0; cnt < n + m; cnt++) {
+                    if(!dp[i][j][cnt]) continue;
+
+                    if(i + 1 < n) {
+                        int bal = cnt + (grid[i + 1][j] == '(' ? 1 : -1);
+
+                        if(bal >= 0) dp[i + 1][j][bal] = true;
+                    }
+
+                    if(j + 1 < m) {
+                        int bal = cnt + (grid[i][j + 1] == '(' ? 1 : -1);
+
+                        if(bal >= 0) dp[i][j + 1][bal] = true;
+                    }
+                }
+            }
+        }
+
+        return dp[n - 1][m - 1][0];
     }
 };
