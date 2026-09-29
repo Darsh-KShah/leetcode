@@ -11,7 +11,7 @@ public:
 
         grid[x][y] == ')' ? bal-- : bal++;
 
-        if(bal < 0) return false;
+        if(bal < 0) return dp[x][y][cnt] = false;
 
         bool r = isPath(dp, grid, n, m, x + 1, y, bal);
         bool d = isPath(dp, grid, n, m, x, y + 1, bal);
