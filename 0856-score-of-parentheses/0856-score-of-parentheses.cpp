@@ -11,7 +11,6 @@ public:
                 st.pop();
 
                 int prev2 = st.top();
-
                 st.pop();
 
                 st.push(prev2 + max(2 * prev1, 1));
