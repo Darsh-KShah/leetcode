@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void tryall(set<string> &res, string &s, string& cur, int idx, int open) {
+    void tryall(unordered_set<string> &res, string &s, string& cur, int idx, int open) {
         if(open < 0) return;
 
         if(idx == s.size()) {
@@ -35,7 +35,7 @@ public:
     }
 
     vector<string> removeInvalidParentheses(string s) {
-        set<string> res;
+        unordered_set<string> res;
 
         string cur = "";
 
