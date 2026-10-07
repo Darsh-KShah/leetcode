@@ -1,8 +1,6 @@
 class Solution {
 public:
     void tryall(unordered_set<string> &res, string &s, string& cur, int idx, int open) {
-        if(open < 0) return;
-
         if(idx == s.size()) {
             if(open == 0) res.insert(cur);
 
