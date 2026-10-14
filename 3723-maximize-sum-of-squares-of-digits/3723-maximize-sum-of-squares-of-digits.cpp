@@ -5,7 +5,9 @@ public:
 
         string res(sum / 9, '9');
 
-        if(sum % 9) res.push_back(sum % 9 + '0');
+        int rem = sum % 9;
+
+        if(rem) res.push_back(rem + '0');
 
         res.append(num - res.size(), '0');
 
