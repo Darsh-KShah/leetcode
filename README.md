@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/Darsh-KShah/leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Darsh-KShah/leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Darsh-KShah/leetcode/tree/master/0013-roman-to-integer) |
+| [0400-nth-digit](https://github.com/Darsh-KShah/leetcode/tree/master/0400-nth-digit) |
 | [0836-rectangle-overlap](https://github.com/Darsh-KShah/leetcode/tree/master/0836-rectangle-overlap) |
 | [1927-sum-game](https://github.com/Darsh-KShah/leetcode/tree/master/1927-sum-game) |
 | [2409-count-days-spent-together](https://github.com/Darsh-KShah/leetcode/tree/master/2409-count-days-spent-together) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Darsh-KShah/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Darsh-KShah/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Darsh-KShah/leetcode/tree/master/0035-search-insert-position) |
+| [0400-nth-digit](https://github.com/Darsh-KShah/leetcode/tree/master/0400-nth-digit) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Darsh-KShah/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Darsh-KShah/leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/Darsh-KShah/leetcode/tree/master/2333-minimum-sum-of-squared-difference) |
