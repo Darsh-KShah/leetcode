@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/Darsh-KShah/leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Darsh-KShah/leetcode/tree/master/0013-roman-to-integer) |
 | [0400-nth-digit](https://github.com/Darsh-KShah/leetcode/tree/master/0400-nth-digit) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Darsh-KShah/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0836-rectangle-overlap](https://github.com/Darsh-KShah/leetcode/tree/master/0836-rectangle-overlap) |
 | [1927-sum-game](https://github.com/Darsh-KShah/leetcode/tree/master/1927-sum-game) |
 | [2409-count-days-spent-together](https://github.com/Darsh-KShah/leetcode/tree/master/2409-count-days-spent-together) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Darsh-KShah/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Darsh-KShah/leetcode/tree/master/0057-insert-interval) |
 | [0135-candy](https://github.com/Darsh-KShah/leetcode/tree/master/0135-candy) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Darsh-KShah/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1254-number-of-closed-islands](https://github.com/Darsh-KShah/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1386-cinema-seat-allocation](https://github.com/Darsh-KShah/leetcode/tree/master/1386-cinema-seat-allocation) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Darsh-KShah/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -153,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Darsh-KShah/leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Darsh-KShah/leetcode/tree/master/0018-4sum) |
 | [0056-merge-intervals](https://github.com/Darsh-KShah/leetcode/tree/master/0056-merge-intervals) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Darsh-KShah/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Darsh-KShah/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Darsh-KShah/leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/Darsh-KShah/leetcode/tree/master/2333-minimum-sum-of-squared-difference) |
