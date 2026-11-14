@@ -4,10 +4,7 @@ public:
         int n = nums.size(), res = INT_MAX;
 
         for(int i = l; i <= r; i++) {
-            int cur = 0;
-
-            for(int j = 0; j < i; j++) 
-                cur += nums[j];
+            int cur = accumulate(nums.begin(), nums.begin() + i, 0);
             
             if(cur > 0) res = min(res, cur);
 
