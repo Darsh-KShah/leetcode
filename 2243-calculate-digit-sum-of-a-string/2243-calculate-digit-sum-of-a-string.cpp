@@ -4,9 +4,9 @@ public:
         while(s.size() > k) {
             string temp = "";
 
-            int cur = 0;
+            int n = s.size(), cur = 0;
 
-            for(int i = 0; i < s.size(); i++) {
+            for(int i = 0; i < n; i++) {
                 cur += s[i] - '0';
 
                 if((i + 1) % k == 0) {
@@ -16,7 +16,7 @@ public:
                 }
             }
 
-            if(s.size() % k) temp += to_string(cur); 
+            if(n % k) temp += to_string(cur); 
 
             s = temp;
         }
