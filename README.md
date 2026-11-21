@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Darsh-KShah/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Darsh-KShah/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Darsh-KShah/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Darsh-KShah/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Darsh-KShah/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Darsh-KShah/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Darsh-KShah/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Darsh-KShah/leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Darsh-KShah/leetcode/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Darsh-KShah/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Darsh-KShah/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3498-reverse-degree-of-a-string](https://github.com/Darsh-KShah/leetcode/tree/master/3498-reverse-degree-of-a-string) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/Darsh-KShah/leetcode/tree/master/3863-minimum-operations-to-sort-a-string) |
 | [4026-maximum-gap-between-stations](https://github.com/Darsh-KShah/leetcode/tree/master/4026-maximum-gap-between-stations) |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Darsh-KShah/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Darsh-KShah/leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Darsh-KShah/leetcode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Darsh-KShah/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Darsh-KShah/leetcode/tree/master/3364-minimum-positive-sum-subarray) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Darsh-KShah/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Darsh-KShah/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
@@ -340,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Darsh-KShah/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Darsh-KShah/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Darsh-KShah/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Darsh-KShah/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -354,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Darsh-KShah/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Darsh-KShah/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/Darsh-KShah/leetcode/tree/master/1254-number-of-closed-islands) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Darsh-KShah/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Darsh-KShah/leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Binary Tree
 |  |
